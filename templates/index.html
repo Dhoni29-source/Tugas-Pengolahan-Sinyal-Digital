@@ -10,33 +10,33 @@
 
 <body>
  <div class="heading">
-  <h1 align="center">Let's do a Diabetes test</h1>
+  <h1 align="center">Yuuk, tes Diabetes disini !</h1>
   </div>
   <br><br>
      <!-- Main Input For Receiving Query to our ML -->
     <form align="center" action="{{ url_for('predict')}}"method="post">
       
       
-        <input type="number" name="Pregnancies" placeholder="Pregnancies" required="required" />
+        <input type="number" name="Angka Melahirkan" placeholder="Angka Melahirkan" required="required" />
        <br><br>
-       <input type="number" name="Glucose" placeholder="Glucose" required="required" />
+       <input type="number" name="Kadar Glukosa" placeholder="Kadar Glukosa" required="required" />
        <br><br>
-       <input type="number" name="BloodPressure" placeholder="Blood Pressure" required="required" />
+       <input type="number" name="Tekanan Darah" placeholder="Tekanan Darah" required="required" />
        <br><br>
-       <input type="number" name="SkinThickness" placeholder="Skin Thickness" required="required">
+       <input type="number" name="Ketebalan Kulit" placeholder="Ketebalan Kulit" required="required">
        <br><br>
-       <input type="number"  step=any name="Insulin" placeholder="Insulin" required="required" />
+       <input type="number"  step=any name="Kadar Insulin" placeholder="Kadar Insulin" required="required" />
       <br><br>
-      <input type="number"  step=any name="BMI" placeholder="BMI" required="required" />
+      <input type="number"  step=any name="Indeks Masa Tubuh" placeholder="Indeks Masa Tubuh" required="required" />
       <br><br>
-      <input type="number"   step=any  name="DiabetesPedigreeFunction" placeholder="Diabetes Pedigree Function (DPF)" required="required"/>
+      <input type="number"   step=any  name="Fungsi Silsilah Diabet" placeholder="Fungsi Silsilah Diabet" required="required"/>
       <br><br>
-      <input type="number" name="Age" placeholder="Age" required="required"/>
+      <input type="number" name="Umur" placeholder="Umur" required="required"/>
       <br><br><br>
 
    
     
-        <button class="button">Predict</button>
+        <button class="button">Prediksi</button>
       </form>
 
    <br>
