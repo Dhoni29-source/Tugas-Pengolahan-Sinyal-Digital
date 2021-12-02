@@ -21,10 +21,10 @@ def predict():
     output=prediction[0]
     
     if output==1:
-        return render_template('index.html',prediction_text='You have diabetes')
+        return render_template('index.html',prediction_text='Berdasarkan Hasil Prediksi. Anda Mempunyai Diabetes, silahkan periksa rutin ke Dokter jika diperlukan')
 
     else:
-        return render_template('index.html',prediction_text="You Don't Have Diabetes")
+        return render_template('index.html',prediction_text="Berdasarkan Hasil Prediksi. Anda Tidak Memiliki Diabetes, Silahkan Tetap Jaga Pola Hidup Sehat Anda")
         
 if __name__=='__main__':
     app.run(debug=True)
