@@ -1,3 +1,4 @@
-# Diabetes-Prediction-Deployed-on-Heroku
+# Diabetes Prediction Deployed on Heroku hosting
 
-Model deployed at https://diabetes-prediction101.herokuapp.com/
+Model deployed at https://tugas1dsp.herokuapp.com
+Contributor : dhoniikhsan8@gmail.com
